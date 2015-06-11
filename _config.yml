@@ -9,3 +9,6 @@ github_username:  ixda-sao
 
 # Build settings
 markdown: kramdown
+
+# Permalink
+permalink: pretty
