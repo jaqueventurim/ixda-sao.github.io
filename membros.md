@@ -6,8 +6,10 @@ permalink: /membros/
 
 ## Slack
 
-<ul>
+<ul class="membros">
   {% for membro in site.data.membros %}
-    <li>{{ membro.nome }}</li>
+    <li data-faceid="{{ membro.facebookid }}">{{ membro.nome }}</li>
   {% endfor %}
 </ul>
+
+{% include_relative  scripts/membros.js %}
