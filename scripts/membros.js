@@ -1,5 +1,3 @@
-<script>
-  
 	window.fbAsyncInit = function() {
     FB.init({
       appId      : '369136536615855',
@@ -13,6 +11,8 @@
 		  	if (response && !response.error) {
 		    	/* handle the result */
 		      console.log(response.data.url)
+		    } else {
+		    	console.log('aaa');
 		    }
 		 }
 		);
@@ -25,7 +25,3 @@
      js.src = "//connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
-
-
-
-</script>
