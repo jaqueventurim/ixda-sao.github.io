@@ -8,7 +8,10 @@ permalink: /membros/
 
 <ul class="membros">
   {% for membro in site.data.membros %}
-    <li data-faceid="{{ membro.facebookid }}">{{ membro.nome }}</li>
+    <li>
+    	<h2>{{ membro.nome }}</h2>
+    	<img src="{{ membro.email | to_gravatar }}" alt="{{ membro.name }}" />
+    </li>
   {% endfor %}
 </ul>
 
