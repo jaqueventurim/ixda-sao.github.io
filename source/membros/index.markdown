@@ -14,6 +14,10 @@ footer: true
     <li>
     	<h2>{{ membro.nome }}</h2>
     	<img src="{{ membro.email | to_gravatar }}" alt="{{ membro.name }}" />
+    	<p>#{{ membro.cadeira }}</p>
+    	<p>#{{ membro.ocupacao }}</p>
+    	<p>#{{ membro.twitter }}</p>
+    	<p>#{{ membro.email }}</p>
     </li>
   {% endfor %}
 </ul>
