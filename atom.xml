@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://ixda-sao.github.io/atom.xml" rel="self"/>
-  <link href="http://ixda-sao.github.io/"/>
-  <updated>2015-06-24T02:16:02+00:00</updated>
-  <id>http://ixda-sao.github.io/</id>
+  <title><![CDATA[IxDA SP]]></title>
+  <link href="http://next.ixdasp.org/atom.xml" rel="self"/>
+  <link href="http://next.ixdasp.org/"/>
+  <updated>2015-06-24T02:21:14+00:00</updated>
+  <id>http://next.ixdasp.org/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     
