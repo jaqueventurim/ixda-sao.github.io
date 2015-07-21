@@ -1,4 +1,6 @@
 .bundle
+*.swp
+*.swo
 .swp
 .DS_Store
 .sass-cache

@@ -1,3 +1,8 @@
+// Colors
+
+$links: #00c4c5;
+
+
 //Global Styles
 
 body { 
@@ -15,4 +20,19 @@ $family-oswald : "'Oswald', sans-serif;";
 p {
 	font-size: 1.125rem; // 18÷16 
 	line-height: 2.61111111rem; // 47÷18
+}
+
+a {
+	color: $links;
+}
+
+// Images
+
+img {
+  max-width: 100%;
+  width: auto\9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
 }

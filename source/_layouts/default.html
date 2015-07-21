@@ -2,7 +2,13 @@
 <body>
   <header class="main-header" role="banner">{% include header.html %}</header>
   <nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
-  <main>{{ content | expand_urls: root_url }}</main>
+  <main>
+		{{ content | expand_urls: root_url }}
+	</main>
+
+	<picture class="bg-fundo">
+	<img src="/images/bg-fundo.jpg" />
+	</picture>
   <footer role="contentinfo">{% include footer.html %}</footer>
 </body>
 </html>
