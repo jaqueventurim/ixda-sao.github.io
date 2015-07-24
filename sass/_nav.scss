@@ -1,3 +1,95 @@
+.menu-button {
+    width: 7.8125em;
+    height: 7.8125em;
+    position: absolute;
+		top: 50%;
+		left: 3.90625em;
+		margin-top: -3.90625em;	
+    display: none;
+    background: none;
+    outline: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+ /* For some Androids */
+}
+
+.morph-shape {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.morph-shape svg path,
+.morph-shape svg line {
+    stroke: $links;
+    stroke-width: 8px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.menu-button--open .morph-shape svg path:first-of-type {
+    -webkit-transform: translate3d(0, -8px, 0);
+    transform: translate3d(0, -8px, 0);
+}
+
+.menu-button--open .morph-shape svg path:nth-of-type(2) {
+    -webkit-transform: translate3d(0, 8px, 0);
+    transform: translate3d(0, 8px, 0);
+}
+
 .main-nav {
-	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	width: 60.3125%;
+	height: 100%;
+	background-color: rgba($links, 0.9);
+	font-family: $family-oswald;
+}
+
+.wrapper-menu-hamburger {}
+
+.main-menu {
+	padding-top: 4em;
+	li {
+		padding-left: 2em;
+		border-bottom: solid 2px #00a3a4;	
+	}
+	a {
+		padding: 0.5em 0;
+		display: block;
+		color: $links_text;
+		font-size: 1.4rem; 
+		text-decoration: none;
+	}
+}
+
+.nav-footer {
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	text-align: center;
+	
+	p {
+		font-size: .63rem;
+		color: $links_text;
+	}	
+}
+
+.second-menu {
+	li {
+		display: inline-block;
+	  vertical-align: middle;
+		color: #003d3d;
+	}
+
+	a {
+		display: block;
+		color: inherit;
+		font-size: .69rem;
+	}
 }
