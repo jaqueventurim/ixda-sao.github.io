@@ -4,7 +4,11 @@
   <title><![CDATA[IxDA SP]]></title>
   <link href="http://next.ixdasp.org/atom.xml" rel="self"/>
   <link href="http://next.ixdasp.org/"/>
+<<<<<<< HEAD
   <updated>2015-07-28T11:29:58-03:00</updated>
+=======
+  <updated>2015-07-28T03:08:22+00:00</updated>
+>>>>>>> acda7f3ced7ab8c910b7665c11857c118c60ce47
   <id>http://next.ixdasp.org/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
