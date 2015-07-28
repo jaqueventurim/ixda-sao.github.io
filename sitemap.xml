@@ -2,7 +2,6 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://next.ixdasp.org/blog/archives/</loc>
-<<<<<<< HEAD
     <lastmod>2015-07-28T11:29:58-03:00</lastmod>
   </url>
   <url>
@@ -32,28 +31,5 @@
   <url>
     <loc>http://next.ixdasp.org/agenda/</loc>
     <lastmod>2015-07-28T11:29:58-03:00</lastmod>
-=======
-  </url>
-  <url>
-    <loc>http://next.ixdasp.org/</loc>
-  </url>
-  <url>
-    <loc>http://next.ixdasp.org/agenda/</loc>
-  </url>
-  <url>
-    <loc>http://next.ixdasp.org/ixda-pelo-mundo/</loc>
-  </url>
-  <url>
-    <loc>http://next.ixdasp.org/membros/</loc>
-  </url>
-  <url>
-    <loc>http://next.ixdasp.org/participe/</loc>
-  </url>
-  <url>
-    <loc>http://next.ixdasp.org/fale-conosco/</loc>
-  </url>
-  <url>
-    <loc>http://next.ixdasp.org/termos-e-condicoes/</loc>
->>>>>>> acda7f3ced7ab8c910b7665c11857c118c60ce47
   </url>
 </urlset>
