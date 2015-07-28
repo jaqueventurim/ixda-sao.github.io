@@ -1,6 +1,41 @@
 main {
 	padding: 0 1rem;
+  position: relative;
 }
 
-.bg-fundo {
+.entry-bg-page {
+  width: 100%;
+  overflow: hidden;
+  position:relative;
+  display:block;
+}
+
+.entry-bg-page-image {
+  position: relative;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  min-height: 350px;
+  overflow: hidden;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(34,34,34,0.3);
+  }
+  img {
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: 0 auto;
+    min-width: 50%;
+    min-height: 50%;
+  }
 }

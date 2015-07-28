@@ -12,6 +12,10 @@ body {
 	background-color: #ebebeb;
 }
 
+*,*:after,*:before {
+  @include box-sizing(border-box);
+}
+
 // Font Oswald
 $family-oswald : 'Oswald', sans-serif;
 
