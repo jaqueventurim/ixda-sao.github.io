@@ -1,3 +1,16 @@
----
-layout: default
----
+{% include head.html %}
+<body>
+  <header class="main-header" role="banner">{% include header.html %}</header>
+  <nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
+  <main>
+		{{ content | expand_urls: root_url }}
+	</main>
+
+	<picture class="entry-bg-page">
+    <div class="entry-bg-page-image">
+      <img src="/images/bg-fundo.jpg" />
+    </div>
+	</picture>
+  <footer role="contentinfo">{% include footer.html %}</footer>
+</body>
+</html>
