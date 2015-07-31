@@ -7,6 +7,7 @@ $links_text: #ffffff;
 
 body { 
 	font-size: 16px;
+  line-height: 1.5rem; // 24/16
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #666666;
 	background-color: #ebebeb;
@@ -19,11 +20,14 @@ body {
 // Font Oswald
 $family-oswald : 'Oswald', sans-serif;
 
-
 // Typographic
+p, ul {
+	// font-size: 1.125rem; // 18÷16 
+	// line-height: 2.61111111rem; // 47÷18
+}
+
 p {
-	font-size: 1.125rem; // 18÷16 
-	line-height: 2.61111111rem; // 47÷18
+  margin-bottom: 20px;
 }
 
 a {
@@ -39,4 +43,13 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+}
+
+//Title
+
+h1 {
+  color: $links;
+  font-size: 1.5625rem; // 25/16
+  margin-bottom: .8em; 
+  font-weight: bold;
 }

@@ -2,13 +2,13 @@
 <body>
   <header class="main-header" role="banner">{% include header.html %}</header>
   <nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
-  <main>
+  <main class="internal-page">
 		{{ content | expand_urls: root_url }}
 	</main>
 
 	<picture class="entry-bg-page">
     <div class="entry-bg-page-image">
-      <img src="/images/bg-fundo.jpg" />
+      <img src="/images/bg-fundo.jpg" class="blur" />
     </div>
 	</picture>
   <footer role="contentinfo">{% include footer.html %}</footer>
