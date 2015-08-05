@@ -1,0 +1,29 @@
+.membros {
+  width: 100%;
+  margin-top: 2em;
+  text-align: center;
+  @include display-flex(inline-flex);
+  @include flex-wrap(wrap);
+  @include justify-content(center);
+  @include align-content(center);
+
+  .membro {
+    display:inline-block;
+    vertical-align: text-top;
+    margin: 0 2em 2em 2em;
+  }
+
+  .nome {
+    color: $links;
+  }
+  .cadeira {
+  
+  }
+  .thumbnail {
+    margin-bottom: 15px;
+    border: solid 2px $links;
+    @include border-radius(50%);
+  }
+  .ocupacacao {}
+  .contato {}
+}
