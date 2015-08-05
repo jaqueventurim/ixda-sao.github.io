@@ -2,9 +2,6 @@
 layout: page
 title: "membros"
 date: 2015-06-24 02:42
-comments: true
-sharing: true
-footer: true
 ---
 
 # Membros
