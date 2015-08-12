@@ -11,12 +11,10 @@ Atual diretoria (2013 - 2015)
 <ul class="membros">
   {% for membro in site.data.membros %}
     <li class="membro">
-    	<img src="{{ membro.email | to_gravatar }}" alt="{{ membro.name }}" class="thumbnail" />
-    	<h2 class="nome">{{ membro.nome }}</h2>
-    	<!-- <p>#{{ membro.cadeira }}</p>
-    	<p>#{{ membro.ocupacao }}</p>
-    	<p>#{{ membro.twitter }}</p>
-    	<p>#{{ membro.email }}</p> -->
+      <a href="./membro/{{ membro.twitter }}.html" title="{{ membro.nome }}">
+    	  <img src="{{ membro.email | to_gravatar }}" alt="{{ membro.name }}" class="thumbnail" />
+    	  <h2 class="nome">{{ membro.nome }}</h2>
+      </a>
     </li>
   {% endfor %}
 </ul>
