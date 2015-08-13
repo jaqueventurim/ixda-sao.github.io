@@ -1,0 +1,36 @@
+.membro {
+  text-align: center;
+  
+  .thumbnail {
+    margin-bottom: 1em;
+  }
+
+  .nome {
+    font-size: inherit;
+    font-weight: normal;
+    margin-bottom: .1em;
+  }
+
+  .cadeira {
+    color: #000000;
+    text-transform:lowercase;
+    font-weight: bold;
+  }
+
+  .ocupacao {
+    color: #000000;
+  }
+
+  .contato {
+    ol {
+      padding-top: 1em;
+    }
+    li {
+      width: 2em;
+      display:inline-block;
+    }
+    svg path {
+      fill: $links;
+    }
+  }
+}

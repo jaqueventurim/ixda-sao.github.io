@@ -7,10 +7,15 @@
   @include justify-content(center);
   @include align-content(center);
 
+  a {
+    text-decoration: none;
+  }
+
   .membro {
+    width: 100px;
     display:inline-block;
     vertical-align: text-top;
-    margin: 0 2em 2em 2em;
+    margin: 0 1.1em 2em 1.1em;
     @include flex-grow(1);
   }
 
