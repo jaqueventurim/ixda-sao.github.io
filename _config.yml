@@ -99,3 +99,9 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+page_gen:
+  - data: 'membros'
+    template: 'membro'
+    name: 'twitter'
+    dir: 'membro'
