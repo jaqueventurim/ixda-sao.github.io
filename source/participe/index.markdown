@@ -8,33 +8,19 @@ date: 2015-06-24 03:37
 
 Acompanhe e participe de nossas atividades.
 
-<!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="//ixdasp.us7.list-manage.com/subscribe/post?u=3914aea2883d76dd214ac9882&amp;id=f365a3d215" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-FNAME">First Name </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-</div>
+<form action="//ixdasp.us7.list-manage.com/subscribe/post?u=3914aea2883d76dd214ac9882&amp;id=f365a3d215" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="mailchilp" target="_blank" novalidate>
+	<input type="email" value="" name="EMAIL" placeholder="Qual seu email" id="mce-EMAIL" tabindex="1" title="Digite seu email">
+	<input type="text" value="" name="FNAME" placeholder="Qual seu primeiro nome" id="mce-FNAME" tabindex="2" title="Digite seu primeiro nome">
+	<input type="text" class="last" value="" name="LNAME" placeholder="Qual seu segundo nome" id="mce-LNAME" tabindex="3" title="Digite seu segundo nome">
+	<input type="hidden" name="b_3914aea2883d76dd214ac9882_f365a3d215" tabindex="-1" value="">
+	<div class="wrapper-full action">
+		<input type="submit" value="PARTICIPE" name="subscribe" id="mc-embedded-subscribe" class="btn-one" tabindex="4" title="Quero participar">
+		<a href="./" class="mimimi">ESTOU DE MIMIMI, DESISTI...</a>
+	</div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_3914aea2883d76dd214ac9882_f365a3d215" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
+	</div>    
 </form>
-</div>
 
 <!--End mc_embed_signup-->
