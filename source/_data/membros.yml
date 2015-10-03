@@ -1,29 +1,111 @@
-- nome: Guilherme Moura Nascimento
-  cadeira: Developer
+- nome: Ricardo Couto
+  cadeira: Presidente (2013 - 2015)
+  ocupacao: Consultor em UX
+  linkedin: #
+  twitter: ricardocouto
+  email: couto.ricardo@gmail.com
+
+- nome: Robson Santos
+  cadeira: Vice Presidente (2013 - 2015)
+  ocupacao: "Designer, Pesquisador em UX"
+  linkedin: #
+  twitter: interfaceando
+  email: interfaceando@gmail.com
+
+- nome: Ricardo Sato
+  cadeira: Secretário (2013 - 2015)
+  ocupacao: Designer Digital
+  linkedin: #
+  twitter: sato
+  email: ricardo@seiji.co
+
+- nome: Vitor Amorim
+  cadeira: Tesoureiro (2013 - 2015)
+  ocupacao: Designer
+  linkedin: #
+  twitter: x
+  email: amorim.vitor@gmail.com
+
+- nome: Guilherme Moura
+  cadeira: Membro coloborador
   ocupacao: Front-end Developer
   linkedin: https://www.linkedin.com/profile/view?id=163487601
   twitter: ogmoura
   email: gmoura.nas@gmail.com
 
-- nome: Ricardo Sato
-  cadeira: Developer
-  ocupacao: Developer
-  linkedin: https://www.linkedin.com/profile/view?id=163487601
-  twitter: sato
-  email: ricardo@seiji.co
-
 - nome: Tiago Spike
-  cadeira: UX
-  ocupacao: UX
-  linkedin: 
+  cadeira: Membro coloborador
+  ocupacao: UX Designer
+  linkedin: # 
   twitter: tiagoux
   email:  tiagoux@gmail.com
 
-- nome: Robson Santos
-  cadeira: UX
-  ocupacao: UX
-  linkedin: 
-  twitter: robson.santos
-  email: interfaceando@gmail.com
- 
-  
+- nome: Nasser Said
+  cadeira: Membro coloborador
+  ocupacao: UX Designer
+  linkedin: # 
+  twitter: nassersaid
+  email:  nassersaid00@gmail.com
+
+- nome: Luciana Terceiro
+  cadeira: Membro coloborador
+  ocupacao: Gerente de UX
+  linkedin: # 
+  twitter: luterceiro
+  email:  luciana.terceiro@gmail.com
+
+- nome: Lari Braga
+  cadeira: Membro coloborador
+  ocupacao: Estudante de Biblioteconomia
+  linkedin: # 
+  twitter: laribraga 
+  email: larissab94@gmail.com
+
+- nome: Nélio Lino
+  cadeira: Membro coloborador
+  ocupacao: Designer
+  linkedin: # 
+  twitter: x
+  email: neliolino@gmail.com
+
+- nome: Rafaela Calheiros
+  cadeira: Membro coloborador
+  ocupacao: Designer
+  linkedin: # 
+  twitter: x
+  email: rahcalheiros@gmail.com
+
+- nome: Guilherme Gonzalez
+  cadeira: Membro coloborador
+  ocupacao: Designer
+  linkedin: # 
+  twitter: x
+  email: guigonzalez@uxer.com.br
+
+- nome: Lein Kassenaar
+  cadeira: Membro coloborador
+  ocupacao: Designer
+  linkedin: # 
+  twitter: x
+  email: marjoleinkassenaar@gmail.com
+
+- nome: Gustavo Oliveira
+  cadeira: Membro coloborador
+  ocupacao: Designer
+  linkedin: # 
+  twitter: x
+  email: ghoostaf@gmail.com
+
+- nome: Leandro Thesin
+  cadeira: Membro coloborador
+  ocupacao: Designer
+  linkedin: # 
+  twitter: x
+  email: leandro.thesin@gmail.com
+
+- nome: Leandro Thesin
+  cadeira: Membro coloborador
+  ocupacao: Designer
+  linkedin: # 
+  twitter: x
+  email: leandro.thesin@gmail.com

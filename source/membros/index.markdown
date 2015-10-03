@@ -6,7 +6,7 @@ date: 2015-06-24 02:42
 
 # Membros
 
-Atual diretoria (2013 - 2015)
+A IxDA SP é composta por membros colaboradores voluntários, que dedicam parte de seu tempo e de seu talento para a visibilidade da área.
 
 <ul class="membros">
   {% for membro in site.data.membros %}
@@ -18,3 +18,7 @@ Atual diretoria (2013 - 2015)
     </li>
   {% endfor %}
 </ul>
+
+<p>Você também pode colaborar com IxDA SP. Venha criar conosco!</p>
+
+<a class="btn-one" href="./participe" title="Veja como participar">PARTICIPE</a>
