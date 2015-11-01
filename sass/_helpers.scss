@@ -1,5 +1,8 @@
-// Text align
+// Call to action
+.call-to-action-centered-block {
+	text-align: center;
 
-.text-center {
-	text-align: center
+	a {
+		display: inline-block;
+	}
 }
