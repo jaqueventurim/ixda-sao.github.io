@@ -19,6 +19,4 @@ A IxDA SP é composta por membros colaboradores voluntários, que dedicam parte 
   {% endfor %}
 </ul>
 
-<p>Você também pode colaborar com IxDA SP. Venha criar conosco!</p>
-
-<a class="btn-one" href="./participe" title="Veja como participar">PARTICIPE</a>
+<p class="text-center">Você também pode colaborar com IxDA SP. Venha criar conosco! <a class="btn-one" href="./participe" title="Veja como participar">PARTICIPE</a></p>
