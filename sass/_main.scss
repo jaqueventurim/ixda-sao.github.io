@@ -1,56 +1,46 @@
 main {
-	padding: 0 1rem;
+	padding: 300px 1rem 0 1rem;
   position: relative;
 }
 
 .entry-bg-page {
   width: 100%;
+  background: url("../images/bg-fundo.jpg");
   overflow: hidden;
-  position:relative;
-  display:block;
+  position: absolute;
+  display: table;
+  left: 0;
+  top: 0;
+
+  .btn-one {
+    display: block;
+  }
 }
 
-.entry-bg-page-image {
-  position: relative;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  min-height: 350px;
-  overflow: hidden;
+.text-hero {
+    padding: 2rem 1rem;
+    display: table-cell;
   
-  &:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(34,34,34,0.3);
-  }
-  img {
-    position: absolute;
-    top:0;
-    left: 0;
-    right:0;
-    bottom: 0;
-    margin: 0 auto;
-    min-width: 50%;
-    min-height: 50%;
-
-    &.blur {
-      @include filter(blur(3px))
+    p {
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 23px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #fff;
+      vertical-align: middle;
     }
-  }
+}
+
+.hero-action {
+  text-align: center;
+  margin: 0;
 }
 
 .internal-page {
   position: relative;
-  width: 96%;
   background-color: rgb(255, 255, 255);
   height: auto;
   z-index: 1;
   margin: 0 auto 20px auto; 
-  padding-top: 20px;
-  padding-top: 20px;
+  padding:2rem; 
 }

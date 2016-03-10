@@ -1,16 +1,33 @@
+.wrapper-mail-page {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  z-index: 1;
+  margin: 0 auto 20px auto; 
+  padding:2.4rem 2rem; 
+
+	.form-title {
+		margin-bottom: 10px;
+		font-family: 'Droid Sans', sans-serif;
+		font-weight: normal;
+	}
+
+	.form-subtitle {}
+}
+
+
 .mailchilp {
-	font-family: $family-oswald;
+	font-family: 'Cabin', sans-serif;
 
 	input[type="text"], 
 	input[type="email"] {
 		
 		width: 100%;
 		border: 0 none;
-		text-transform: uppercase; 
 		font-size: 1.4em;
 		border-bottom: solid 2px #cfd0cf;
 		margin-bottom: 2em;
-		font-family: inherit;
+		font-family: 'Cabin', sans-serif;
 
 		&:focus {
 			@include input-placeholder {

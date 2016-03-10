@@ -1,0 +1,37 @@
+@media (min-width: 480px) {
+	main {
+		padding-top: 260px;
+	}
+
+	.hero-action {
+		text-align: left
+	}
+
+	.text-hero p {
+		font-size: 27px;
+	}
+}
+
+@media (min-width: 640px) {
+	main {
+		padding: 260px 3rem 0 3rem;
+	}
+
+	.text-hero {
+		padding-left:3rem;
+		padding-right: 3rem;
+	}
+
+	.menu-humburger {
+		left: 3.5em;
+	}
+}
+
+@media (min-width: 780px) {
+	.text-hero {
+		padding: 3rem;
+	}
+	.text-hero p {
+		font-size: 30px;
+	}
+}

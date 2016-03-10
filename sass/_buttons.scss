@@ -11,8 +11,18 @@
 $btn-two : #ebebeb;
 $btn-two-color : #666766;
 
+
+%btn-hero {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
 %btn{
-  font-family: $family-oswald;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 1.2em;
   padding: .5rem;
   margin: 1.3rem 0;
@@ -25,6 +35,11 @@ $btn-two-color : #666766;
 .btn-three {
   @extend %btn-reset;
   @extend %btn;
+}
+
+.btn-hero {
+  @extend %btn-reset;
+  @extend %btn-hero; 
 }
 
 .btn-one   {
@@ -42,6 +57,10 @@ $btn-two-color : #666766;
   padding: .43rem;
 }
 
+.btn-hero   {
+  background-color: $links;
+  color: $links_text;
+}
 .btn-wrapper {
   position: relative;
   width: 100%;
