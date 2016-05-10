@@ -11,7 +11,7 @@ A IxDA SP é composta por membros colaboradores voluntários, que dedicam parte 
 <ul class="membros">
   {% for membro in site.data.membros %}
     <li class="membro">
-      <a href="{{ site.url }}/membro/{{ membro.twitter }}.html" title="{{ membro.nome }}">
+      <a href="{{ site.url }}/membros/{{ membro.twitter }}" title="{{ membro.nome }}">
     	  <img src="{{ membro.email | to_gravatar }}" alt="{{ membro.name }}" class="thumbnail" />
     	  <h2 class="nome">{{ membro.nome }}</h2>
       </a>
