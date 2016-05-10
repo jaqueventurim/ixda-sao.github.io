@@ -9,8 +9,7 @@ module Jekyll
       @site = site
       @base = base
       @dir = dir
-      @name = sanitize_filename(data[name]) + ".html"
-
+      @name = sanitize_filename(data[name]) + "/index.html"
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), template + ".html")
       self.data.merge!(data)
@@ -38,7 +37,7 @@ module Jekyll
           template = data_spec['template'] || data_spec['data']
           name = data_spec['name']
           dir = data_spec['dir'] || data_spec['data']
-          
+
           if site.layouts.key? template
             records =  site.data[data_spec['data']]
             records.each do |record|
@@ -57,7 +56,7 @@ module Jekyll
     # use it like this: {{input | datapage_url: dir}}
     # output: dir / input .html
     def datapage_url(input, dir)
-      dir + "/" + sanitize_filename(input) + ".html"
+      dir + "/" + sanitize_filename(input) + "/index.html"
     end
 
     private
@@ -73,4 +72,3 @@ module Jekyll
 end
 
 Liquid::Template.register_filter(Jekyll::DataPageLinkGenerator)
-
