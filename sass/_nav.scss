@@ -50,14 +50,14 @@
 }
 
 .main-nav {
+	font-family: 'Droid Sans', sans-serif;
 	position: fixed;
-  z-index:2;
+  	z-index:2;
 	top:0;
 	left: -60.3125%;
 	width: 60.3125%;
 	height: 100%;
 	background-color: rgba($links, 0.9);
-	font-family: $family-oswald;
 
   @include transition-property(left);
   @include transition-duration(.3s);
