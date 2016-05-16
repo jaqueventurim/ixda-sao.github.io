@@ -1,4 +1,11 @@
+body{
+      max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
 main {
+
 	padding: 300px 1rem 0 1rem;
   position: relative;
 }
@@ -42,5 +49,5 @@ main {
   height: auto;
   z-index: 1;
   margin: 0 auto 20px auto; 
-  padding:2rem; 
+  padding:3rem; 
 }
