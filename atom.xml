@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[IxDA SP]]></title>
-  <link href="http://secret-sp.ixda.org.br/atom.xml" rel="self"/>
-  <link href="http://secret-sp.ixda.org.br/"/>
-  <updated>2016-05-12T09:14:00-03:00</updated>
-  <id>http://secret-sp.ixda.org.br/</id>
+  <link href="http://next.ixdasp.org/atom.xml" rel="self"/>
+  <link href="http://next.ixdasp.org/"/>
+  <updated>2016-05-09T22:22:42-03:00</updated>
+  <id>http://next.ixdasp.org/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
     

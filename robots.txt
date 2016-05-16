@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://secret-sp.ixda.org.br/sitemap.xml 
+Sitemap: http://next.ixdasp.org/sitemap.xml 
