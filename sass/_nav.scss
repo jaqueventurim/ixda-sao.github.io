@@ -58,6 +58,7 @@
 	width: 60.3125%;
 	height: 100%;
 	background-color: rgba($links, 0.9);
+	text-align: left;
 
   @include transition-property(left);
   @include transition-duration(.3s);

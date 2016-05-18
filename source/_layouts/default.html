@@ -1,8 +1,12 @@
 {% include head.html %}
 <body>
-  <header class="main-header" role="banner">{% include header.html %}</header>
-  <nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
-  <main>
+  	<header class="main-header" role="banner">
+  		{% include header.html %}
+  		<nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
+  	</header>
+  	
+  	{% include hero.html %}
+  	<main>
 		{{ content | expand_urls: root_url }}
 	</main>
   <footer role="contentinfo">{% include footer.html %}</footer>
