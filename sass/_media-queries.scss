@@ -116,7 +116,10 @@
 		margin: 0 auto;
 	}
 	.text-hero {
-		padding: 3rem;
+	    padding: 3rem;
+	    max-width: 1000px;
+	    display: block;
+	    margin: 0 auto;
 	}
 	.text-hero p {
 		font-size: 30px;
