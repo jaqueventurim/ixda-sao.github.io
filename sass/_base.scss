@@ -53,3 +53,32 @@ h1 {
   margin-bottom: .8em; 
   font-weight: bold;
 }
+
+
+h1 {
+   color: #00c4c5 ;
+   font-family: 'Droid Sans', sans-serif;
+   font-size: 2rem;
+   margin-bottom: .8em;
+   font-weight: bold;
+}
+
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: .8em;
+}
+
+ul {
+   list-style: inherit;
+   margin-left: 19px;
+   margin-bottom: .8em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 1.5em 0;
+  background: $links;
+}

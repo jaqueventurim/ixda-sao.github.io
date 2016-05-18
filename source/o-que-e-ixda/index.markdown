@@ -21,6 +21,8 @@ a atender às necessidades da comunidade internacional de Design de Interação.
 A IxDA foi criada nos Estados Unidos em 2003 e incorporado com uma organização sem fins lucrativos no final de 2005, conta com mais de 50.000 membros e mais de 140 grupos locais pelo mundo. 
 A rede IxDA dedica-se a promover discussões sobre temas do design de interação de interesse para profissionais e estudantes de todos os níveis de experiência.
 
+<hr />
+
 ## Conferências
 
 Ao longo de sua existência, a IxDA realizou as seguintes conferências: 
