@@ -1,7 +1,9 @@
 {% include head.html %}
 <body>
-  <header class="main-header" role="banner">{% include header.html %}</header>
-  <nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
+  <header class="main-header" role="banner">
+    {% include header.html %}
+    <nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
+  </header>
   <main class="internal-page">
     <article class="membro">
       <picture><img src="{{ page.email | to_gravatar }}" alt="{{ page.name }}" class="thumbnail" /></picture>

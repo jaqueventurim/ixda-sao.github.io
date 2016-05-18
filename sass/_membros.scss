@@ -2,10 +2,6 @@
   width: 100%;
   margin-top: 2em;
   text-align: center;
-  @include display-flex(inline-flex);
-  @include flex-wrap(wrap);
-  @include justify-content(center);
-  @include align-content(center);
 
   a {
     text-decoration: none;
@@ -16,7 +12,6 @@
     display:inline-block;
     vertical-align: text-top;
     margin: 0 1.1em 2em 1.1em;
-    @include flex-grow(1);
   }
 
   .nome {
