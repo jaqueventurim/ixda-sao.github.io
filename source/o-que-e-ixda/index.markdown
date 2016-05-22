@@ -37,7 +37,7 @@ Ao longo de sua existência, a IxDA realizou as seguintes conferências:
 * Interaction15 | San Francisco
 * Interaction16 | Helsinki
 
-
+<hr />
 ## IxDA São Paulo
 
 O capítulo local São Paulo foi criado em 2008 e, desde então, vem realizando atividades importantes como:
