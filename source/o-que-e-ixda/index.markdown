@@ -57,4 +57,4 @@ Temos trabalhado para consolidar parcerias com empresas e instituições de ensi
 
 <hr/>
 
-<p class="text-center">Você também pode colaborar com IxDA SP. Venha criar conosco! <br /><a class="btn-one" href="{{ site.url }}/participe" title="Veja como participar">PARTICIPE</a></p>
+{% include form.html %}
