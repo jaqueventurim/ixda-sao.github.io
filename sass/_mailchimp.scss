@@ -3,13 +3,14 @@
   background-color: rgb(255, 255, 255);
   height: auto;
   z-index: 1;
-  margin: 0 auto 20px auto; 
-  padding:2.4rem 2rem; 
+  margin: 0 auto 0 auto; 
+  padding:2.4rem 0 0 0; 
 
 	.form-title {
 		margin-bottom: 10px;
 		font-family: 'Droid Sans', sans-serif;
 		font-weight: normal;
+		line-height: 35px;
 	}
 
 	.form-subtitle {}

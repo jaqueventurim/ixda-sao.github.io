@@ -4,8 +4,13 @@
 		text-align: left
 	}
 
-	.text-hero p {
+	.text-hero .hero-title {
 		font-size: 27px;
+	}
+
+	.hero-content-left,
+	.hero-content-right {
+		width: 100%;
 	}
 }
 
@@ -121,7 +126,21 @@
 	    display: block;
 	    margin: 0 auto;
 	}
-	.text-hero p {
+	.text-hero .hero-title {
 		font-size: 30px;
+	}
+
+	.hero-content-left,
+	.hero-content-right {
+		width: 100%
+	}
+
+	.hero-content-left {
+		float: left;
+		width: 60%;
+	}
+	.hero-content-right{
+		float: right;
+		width: 35%;
 	}
 }

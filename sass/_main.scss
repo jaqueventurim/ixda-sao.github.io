@@ -18,6 +18,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 0 0 2em 0;
   
   .btn-one {
     display: block;
@@ -28,13 +29,14 @@ main {
     padding: 2rem 1rem;
     display: table-cell;
   
-    p {
+    .hero-title {
       font-family: 'Droid Sans', sans-serif;
       font-size: 23px;
       line-height: 40px;
       font-weight: bold;
       color: #fff;
       vertical-align: middle;
+      margin-bottom: 20px;
     }
 }
 
@@ -50,4 +52,36 @@ main {
   z-index: 1;
   margin: 0 auto 20px auto; 
   padding:3rem; 
+}
+
+.hero-contet {
+  overflow: hidden
+}
+
+.hero-content-left,
+.hero-content-right {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.hero-content-left{
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 25px;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.7);
+  margin-bottom: 2em;
+}
+
+.hero-content-right{
+
+  .wrapper-mail-page {
+    padding: 30px
+  }
+
+  .form-title {
+    font-size: 24px;
+  }
 }
