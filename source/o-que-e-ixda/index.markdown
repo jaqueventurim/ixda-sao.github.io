@@ -52,9 +52,9 @@ O capítulo local São Paulo foi criado em 2008 e, desde então, vem realizando 
 
 Também buscamos colaborar com outras atividades em conjunto com a comunidade local, como meet ups e colaboração com a UXPA SP e IDF SP.
 
-Temos trabalhado para consolidar parcerias com empresas e instituições de ensino e, por meio dessas ações, atingir as principais metas da associação. 
+Temos trabalhado para consolidar parcerias com empresas e instituições de ensino e, por meio dessas ações, atingir as principais metas da associação.
 
 
-<hr/>
+<hr class="divisor" />
 
 {% include form.html %}

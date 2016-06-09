@@ -20,6 +20,6 @@ A IxDA SP é composta por membros colaboradores voluntários, que dedicam parte 
 </ul>
 
 
-<hr />
+<hr class="divisor" />
 
 {% include form.html %}

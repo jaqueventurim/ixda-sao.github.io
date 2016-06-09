@@ -25,10 +25,10 @@
 		
 		width: 100%;
 		border: 0 none;
-		font-size: 1.4em;
+		font-size: 1.1em;
 		border-bottom: solid 2px #cfd0cf;
 		margin-bottom: 2em;
-		font-family: 'Cabin', sans-serif;
+		font-family: 'Droid Sans', sans-serif;
 
 		&:focus {
 			@include input-placeholder {
@@ -51,6 +51,7 @@
 	input[type="submit"] {
 		cursor: pointer;
 		margin-right: 2em;
+		margin-bottom: 0;
 		@include appearance('none')
 ;		&:focus {
 			outline: #666666 dotted 2px;
