@@ -24,7 +24,7 @@
 		padding-right: 3rem;
 	}
 
-	.main-header {
+	.header-wrap {
 		padding: 12px 3rem;
 		text-align: left;
 	}
@@ -114,7 +114,7 @@
 }
 
 @media (min-width: 780px) {
-	.main-header,
+	.header-wrap,
 	main,
 	footer {
 		max-width: 1000px;

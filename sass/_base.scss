@@ -11,7 +11,20 @@ body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #666666;
 	background-color: #ebebeb;
+      background-image: url("../images/bg-fundo.jpg");
+  background-position: center 73px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  &.internal {
+    background-image: initial
+  }
 }
+
+
 
 *,*:after,*:before {
   @include box-sizing(border-box);

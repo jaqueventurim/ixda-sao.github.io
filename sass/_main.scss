@@ -10,12 +10,7 @@ main {
 }
 
 .entry-bg-page {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top:0;
-  margin-top: 74px;
-  background: url("../images/bg-fundo.jpg");
+  margin: 0 auto;
   overflow: hidden;
   display: table;
   margin-bottom: 30px;
@@ -23,7 +18,6 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   padding: 0 0 2em 0;
-  position: fixed;
 
   .btn-one {
     display: block;
@@ -33,6 +27,7 @@ main {
 .text-hero {
     padding: 2rem 1rem;
     display: table-cell;
+    overflow: hidden;
   
     .hero-title {
       font-family: 'Droid Sans', sans-serif;

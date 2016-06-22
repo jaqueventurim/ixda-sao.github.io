@@ -1,8 +1,12 @@
 {% include head.html %}
-<body>
+<body class="internal">
   <header class="main-header" role="banner">
-    {% include header.html %}
-    <nav class="main-nav" role="navigation">{% include navigation.html %}</nav>
+    <div class="header-wrap">
+      {% include header.html %}
+      <nav class="main-nav" role="navigation">
+        {% include navigation.html %}
+      </nav>
+    </div>
   </header>
   <main class="internal-page">
     <article class="membro">
