@@ -1,7 +1,7 @@
 - nome: Ricardo Couto
   cadeira: Presidente (2013 - 2015)
   ocupacao: Consultor em UX
-  linkedin: #
+  linkedin: https://br.linkedin.com/in/coutoricardo
   twitter: ricardocouto
   email: couto.ricardo@gmail.com
 
@@ -18,13 +18,6 @@
   linkedin: #
   twitter: sato
   email: ricardo@seiji.co
-
-- nome: Vitor Amorim
-  cadeira: Tesoureiro (2013 - 2015)
-  ocupacao: Designer
-  linkedin: #
-  twitter: x
-  email: amorim.vitor@gmail.com
 
 - nome: Guilherme Moura
   cadeira: Membro coloborador
@@ -89,13 +82,6 @@
   twitter: x
   email: guigonzalez@uxer.com.br
 
-- nome: Lein Kassenaar
-  cadeira: Membro coloborador
-  ocupacao: Designer
-  linkedin: # 
-  twitter: x
-  email: marjoleinkassenaar@gmail.com
-
 - nome: Gustavo Oliveira
   cadeira: Membro coloborador
   ocupacao: Designer
@@ -109,10 +95,4 @@
   linkedin: # 
   twitter: x
   email: leandro.thesin@gmail.com
-
-- nome: Leandro Thesin
-  cadeira: Membro coloborador
-  ocupacao: Designer
-  linkedin: # 
-  twitter: x
-  email: leandro.thesin@gmail.com
+  
